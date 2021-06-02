@@ -18,6 +18,9 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
+import wandb
+wandb.init(project="castor", name="C_001")
+
 from absl import flags
 
 import tensorflow.compat.v1 as tf
