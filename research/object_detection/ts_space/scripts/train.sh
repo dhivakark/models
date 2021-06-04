@@ -1,11 +1,3 @@
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/faster_rcnn_resnet50_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/faster_rcnn_inception_resnet_v2_atrous_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/faster_rcnn_nas_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/faster_rcnn_resnet101_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/ssd_mobilenet_v1_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/ssd_mobilenet_v1_fpn_shared_box_predictor_640x640_coco14_sync.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/ssd_mobilenet_v2_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-#python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/ssd_resnet101_v1_fpn_shared_box_predictor_oid_512x512_sync.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
-python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/ssd_inception_v2_coco.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
+python /home/ubuntu/work/tf_obj_det/research/object_detection/model_main.py --pipeline_config_path=/home/ubuntu/work/tf_obj_det/research/object_detection/ts_space/configs/ssd_inception_v2_castor.config --model_dir=/home/ubuntu/work/tf_obj_det/research/object_detection/ts_space/trained_models
 #python3 object_detection/model_main.py --pipeline_config_path=/home/ubuntu/object_detection_api/train_config/ssd_resnet50_v1_fpn_shared_box_predictor_640x640_coco14_sync.config --model_dir=/home/ubuntu/object_detection_api/detection_benchmark/
 #sudo poweroff

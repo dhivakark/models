@@ -1,0 +1,6 @@
+tensorflow-gpu==1.15.3
+wandb
+opencv-python
+requests
+tf_slim
+pycocotools
