@@ -4,3 +4,5 @@ opencv-python
 requests
 tf_slim
 pycocotools
+lvis
+scipy
